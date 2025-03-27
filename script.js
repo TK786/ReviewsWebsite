@@ -53,7 +53,7 @@
         const comment = document.getElementById('comment').value;
 
         //Add review to the array
-        reviews.push({f});
+        reviews.push({name, comment, rating});
 
         //Display reviews
         displayReviews();
