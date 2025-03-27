@@ -1,0 +1,36 @@
+    <!--Reviews Website-->
+    <!DOCTYPE html>
+    <html lang ="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Reviews Website</title>
+        <link rel ="stylesheet" href="styles.css">
+    <body>
+        <header>
+            <h1>Reviews Website</h1>
+        </header>
+        <main>
+            <section class="Reviews">
+                <h2>Latest Reviews</h2>
+                <h3>Rate Us!</h3>
+        <div class="stars" id="stars"></div>
+        <!--Stars will be dynamically created-->
+        <p id=""rating></p>
+            </section>
+        </main>
+        <form class="Review-Form" id="ReviewForm">
+            <h2>Submit Your Review</h2>
+            <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label for="review">Your Review:</label>
+        <textarea id="review" name="review" rows="4" placeholder="Write your review here" required></textarea>
+        <button type="submit">Submit Review</button>
+        </form>
+        <Footer>
+            <p>&copy; 2025 Reviews Website</p>
+        </Footer>
+        <script src="script.js"></script>
+    </body>
+    </head>
+    </html>
