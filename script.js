@@ -47,6 +47,17 @@
             });
         });
         
+        //Get form values
+        const name = document.getElementById('name').value;
+        const rating = parseInt(document.getElementById('rating').value);
+        const comment = document.getElementById('comment').value;
+
+        //Add review to the array
+        reviews.push({f});
+
+        //Display reviews
+        displayReviews();
+
         const form =document.getElementById('ReviewForm');
         form.addEventListener('submit', e =>{
             e.preventDefault();
